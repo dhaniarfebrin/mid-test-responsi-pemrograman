@@ -1,4 +1,6 @@
-﻿namespace ResponsiPemrograman4308
+﻿using System;
+
+namespace ResponsiPemrograman4308
 {
     public class Program
     {
@@ -8,8 +10,8 @@
 
             Console.WriteLine("No Nik/Nama      Gaji Bulanan");
             Console.WriteLine("-----------------------------");
-            Console.Write("1 ");karyawan1.tampilkanData();
-            Console.Write("2 ");karyawan2.tampilkanData();
+            Console.Write("1. ");karyawan1.tampilkanData();
+            Console.Write("2. ");karyawan2.tampilkanData();
             Console.WriteLine();
 
             karyawan1.naikGaji();

@@ -1,3 +1,5 @@
+using System;
+
 namespace ResponsiPemrograman4308
 {
     public class Karyawan
@@ -29,14 +31,14 @@ namespace ResponsiPemrograman4308
         }
 
         public void tampilkanData() {
-            Console.WriteLine("{0} {1}      {2}", nik, nama, gajiBulanan);
+            Console.WriteLine("{0} {1}      {2}", this.nik, this.nama, this.gajiBulanan);
         }
 
         public void naikGaji() {
             int kenaikan;
 
             kenaikan = gajiBulanan * 110;
-            gajiBulanan = kenaikan / 100;
+            this.gajiBulanan = kenaikan / 100;
 
             Console.WriteLine("asyik naik gaji 10%");
         }

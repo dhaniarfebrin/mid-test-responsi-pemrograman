@@ -14,8 +14,8 @@ namespace ResponsiPemrograman4308
             Console.Write("2. ");karyawan2.tampilkanData();
             Console.WriteLine();
 
-            karyawan1.naikGaji();
-            karyawan2.naikGaji();
+            karyawan1.naikGaji(); // menaikkan gaji
+            karyawan2.naikGaji(); // menaikkan gaji
 
             Console.WriteLine();
             Console.WriteLine("No Nik/Nama      Gaji Bulanan");
@@ -24,7 +24,7 @@ namespace ResponsiPemrograman4308
             Console.Write("2 ");karyawan2.tampilkanData();
 
             Console.WriteLine();
-            Console.WriteLine("tekan sembarang key untuk menyudahi....");
+            Console.Write("tekan sembarang key untuk menyudahi....");
             Console.ReadKey();
         }
     }

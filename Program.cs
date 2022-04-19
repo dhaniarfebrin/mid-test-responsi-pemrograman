@@ -20,6 +20,9 @@
             Console.WriteLine("-----------------------------");
             Console.Write("1 ");karyawan1.tampilkanData();
             Console.Write("2 ");karyawan2.tampilkanData();
+
+            Console.WriteLine("tekan sembarang key untuk menyudahi");
+            Console.ReadKey();
         }
     }
 }
